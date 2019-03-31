@@ -8,7 +8,7 @@ except IOError:
 
 setup(
     name="blame-reviewers",
-    version="0.1.0",
+    version="0.1.1",
     description="CLI tool for searching code reviewers from git blame.",
     license="MIT",
     author="Evgeniy Baranov",
@@ -17,6 +17,7 @@ setup(
         'sh>=1.12.13,<2'
     ],
     long_description=long_description,
+    long_description_content_type='text/markdown',
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
